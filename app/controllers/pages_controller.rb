@@ -4,5 +4,13 @@ class PagesController < ApplicationController
   def superman
   end	
   def batmanvssuperman
-  end	
+  end
+  def interior
+      unless params[:name].blank?
+      Votossuperman.create({
+      name: params[:name],
+      email: params[:email],
+      })
+    end	
+ end  
 end

@@ -2,6 +2,12 @@ Rails.application.routes.draw do
   get 'pages/batman'
   get 'pages/superman'
   root 'pages#batmanvssuperman'
+  post 'pages/interior'
+
+  get 'pages/page1,'
+  get 'pages/page2,'
+  get 'pages/page3,'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
