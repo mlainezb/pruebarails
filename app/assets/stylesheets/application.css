@@ -14,5 +14,5 @@
  *= require background
  *= require_self
  *= require_tree .
-*= require superman
+ *= require superman
  */
